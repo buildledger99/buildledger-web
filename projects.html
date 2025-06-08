@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>案件一覧 - buildledger</title>
+  <style>
+    body { font-family: sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
+    header, footer { background: #222; color: #fff; text-align: center; padding: 1rem; }
+    main { max-width: 960px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { margin-bottom: 1.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { padding: 0.75rem; border: 1px solid #ccc; text-align: left; }
+    th { background-color: #005baa; color: #fff; }
+    tr:nth-child(even) { background-color: #f2f2f2; }
+    a { color: #005baa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>buildledger</h1>
+  </header>
+  <main>
+    <h1>案件一覧</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>案件名</th>
+          <th>会社名</th>
+          <th>エリア</th>
+          <th>状態</th>
+          <th>詳細</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>新築住宅基礎工事</td>
+          <td>ABC建設</td>
+          <td>東京</td>
+          <td>募集中</td>
+          <td><a href="project-detail.html?id=1">詳細</a></td>
+        </tr>
+        <tr>
+          <td>内装リフォーム</td>
+          <td>XYZリフォーム</td>
+          <td>大阪</td>
+          <td>依頼中</td>
+          <td><a href="project-detail.html?id=2">詳細</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <p>&copy; 2025 buildledger. All rights reserved.</p>
+  </footer>
+</body>
+</html>
